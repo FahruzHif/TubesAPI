@@ -4,3 +4,5 @@ Cara mengakses
 3. Jalankan CMD 
 4. ketik git clone https://github.com/FahruzHif/TubesAPI.git
 5. buka folder clone di teks editor kemudian .env example dihapus examplenya dan ganti setting database sesuai database kalian
+
+Tutor lebih lanjut hubungi pembuat
