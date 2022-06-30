@@ -24,7 +24,7 @@ class BeasiswaController extends Controller
 
     public function create()
     {
-        $response = Http::get('https://njajalapi.herokuapp.com/api/siswa');
+        $response = Http::get('https://siswasekolah.herokuapp.com/api/siswa');
         $siswa = $response->json('data.data');
         return view('beasiswa.create', compact('siswa'));
     }

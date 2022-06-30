@@ -28,7 +28,7 @@ class DaftarController extends Controller
     public function create()
     {
         $beasiswas = Beasiswa::get();
-        $response = Http::get('https://njajalapi.herokuapp.com/api/siswa');
+        $response = Http::get('hhttps://siswasekolah.herokuapp.com/api/siswa');
         $siswa = $response->json('data.data');
 
         return view('daftar.create', compact('siswa','beasiswas'));
